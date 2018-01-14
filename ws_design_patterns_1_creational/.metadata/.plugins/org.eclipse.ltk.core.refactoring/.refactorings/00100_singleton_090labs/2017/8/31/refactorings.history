@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;SingletonLab_010.java&apos; to &apos;00100_singleton_labs/src/singleton.lab_010&apos;&#x0D;&#x0A;- Original project: &apos;00100_singleton_labs&apos;&#x0D;&#x0A;- Destination element: &apos;00100_singleton_labs/src/singleton.lab_010&apos;&#x0D;&#x0A;- Original element: &apos;SingletonLab_010.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;singleton.lab_010" element1="/src&lt;{SingletonLab_010.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1501924422868" units="1" version="1.0"/>
+</session>

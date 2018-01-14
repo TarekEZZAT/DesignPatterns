@@ -1,0 +1,14 @@
+package logger_030.interface_behavior;
+
+import java.io.PrintStream;
+
+public class Logger {
+
+	   public ILogWriter logWriter;
+
+     private void WriteLogMessage(PrintStream[] files, String message) {
+         for (int i=0; i < files.length; i++)  {
+               logWriter.Write(files[i], message);
+         }
+     }    
+}

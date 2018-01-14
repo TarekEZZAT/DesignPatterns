@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/00500_builder_065_immutable_class/src/immutable_model_no_builder/ImmutableData.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="immutable_model_no_builder.ImmutableData"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="00500_builder_065_immutable_class"/>
+</launchConfiguration>

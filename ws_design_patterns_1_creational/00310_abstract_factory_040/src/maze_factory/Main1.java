@@ -1,0 +1,18 @@
+package maze_factory;
+
+public class Main1 { 
+	 public static void main(String[] args){ 
+	 MazeFactory factory = new MazeFactory(); 
+	 MazeGame game = new MazeGame(); 
+	 game.createMaze(factory); 
+	 } 
+	}
+
+/* Old Driver
+public class Main { 
+	 public static void main(String[] args){ 
+	 MazeGame game = new MazeGame(); 
+	 game.createMaze(); 
+	 } 
+	} 
+*/

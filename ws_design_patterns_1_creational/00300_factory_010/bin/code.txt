@@ -1,0 +1,22 @@
+public abstract class Product { 
+public void writeName(String name) { 
+ System.out.println("My name is "+name); 
+ } 
+} 
+
+public class ProductA extends Product { } 
+public class ProductB extends Product { 
+ public void writeName(String name) { 
+ StringBuilder tempName = new StringBuilder().append(name); 
+ System.out.println("My reversed name is" + 
+tempName.reverse()); 
+ } 
+} 
+public class ProductFactory { 
+ Product createProduct(String type) { 
+ if(type.equals("B")) 
+ return new ProductB(); 
+ else 
+ return new ProductA(); 
+ } 
+} 

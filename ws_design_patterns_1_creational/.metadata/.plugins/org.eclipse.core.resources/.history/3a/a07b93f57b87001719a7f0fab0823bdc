@@ -1,0 +1,9 @@
+package maze_factory;
+
+public class Main2 { 
+	 public static void main(String[] args){ 
+	 MazeFactory factory = new EnchantedMazeFactory(); 
+	 MazeGame game = new MazeGame(); 
+	 game.createMaze(factory); 
+	 } 
+	} 

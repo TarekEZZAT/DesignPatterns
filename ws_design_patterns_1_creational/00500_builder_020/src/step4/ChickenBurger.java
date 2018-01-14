@@ -1,0 +1,19 @@
+package step4;
+
+import step3.Burger;
+
+/*
+ChickenBurger.java
+*/
+public class ChickenBurger extends Burger {
+
+   @Override
+   public float price() {
+      return 50.5f;
+   }
+
+   @Override
+   public String name() {
+      return "Chicken Burger";
+   }
+}

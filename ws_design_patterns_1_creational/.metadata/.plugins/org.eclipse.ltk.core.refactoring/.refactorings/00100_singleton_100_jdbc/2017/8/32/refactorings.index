@@ -1,0 +1,6 @@
+1502364122319	Rename type 'BasicJDBCDemo'
+1502364249314	Move compilation unit
+1502364336968	Rename field 'conn'
+1502405980046	Rename type 'ClonableJDBC'
+1502445138437	Rename package 'jdbc_prototype'
+1502445158880	Rename package 'jdbc_standard'

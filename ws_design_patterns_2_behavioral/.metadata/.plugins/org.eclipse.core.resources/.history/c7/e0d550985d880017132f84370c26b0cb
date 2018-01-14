@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title> Ouvrage demandé </title>
+	</head>
+	<body>
+		<form method="post" action="/Display">
+			<p> Quel est son titre ? </p>
+			<input name=titre type=text  size=12/>	
+			<p> Quelle est sa catégorie ? </p>
+			<input name=categorie type=text  size=12/>	
+			<input type=submit/>
+		</form>
+	</body>
+</html>	

@@ -1,0 +1,27 @@
+package maze_simple;
+
+import Direction;
+
+class Room extends MapSite { 
+	 
+	 Room(){ 
+	 int _roomCnt;
+	int _roomNr = _roomCnt++; 
+	 System.out.println("creating Room #" + _roomNr); 
+	 } 
+	 
+	 void setSide(Direction d, MapSite site){ 
+	 
+	 if (d == Direction.North){ 
+	 _northSide = site; 
+	 } else if (d == Direction.South){ 
+	 _southSide = site; 
+	 } else if (d == Direction.East){ 
+	 _eastSide = site; 
+	 } else if (d == Direction.West){ 
+	 _westSide = site; 
+	 } 
+	 System.out.println("setting " + d.toString() + 
+	 " side of " + this.toString() + " to " + 
+	site.toString()); 
+	 } 

@@ -1,0 +1,40 @@
+package servlets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class MonServlet extends HttpServlet {
+	/*constructeur à décrire même s’il ne contient rien, certains
+	  moteurs de servlets ont des difficultés à instancier le servlets*/
+	public  MonServlet (){}
+	
+	public void service (HttpServletRequest req, 
+		HttpServletResponse rep) throws ServletException, IOException {
+		
+		//On récupère un paramètre de la requête
+		String nom = req.getParameter("nom") ;
+
+		//On spécifie le type MIME de la réponse et 
+		//on utilise un PrintWriter
+		rep.setContentType("text/html") ;
+		PrintWriter out = rep.getWriter();
+	
+		//OU BIEN On récupère un flux pour une réponse au format HTML
+		//ServletOutputStream out =rep.getOutputStream ();
+	
+		//Création de la page HTML
+		out.println("<HTML><BODY>") ;
+		out.println("<H1>Bonjour</H1>") ;
+		out.println("<P> Bienvenue " + nom + "<BR>") ;
+		out.println("</BODY></HTML>") ;
+	
+		//fermeture du flux
+		out.close() ;
+	}
+}

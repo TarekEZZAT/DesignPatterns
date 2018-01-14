@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="singleton.lab_020.SubClassSingleton"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="command_interface.Command"/>
+<fullyQualifiedTypeName name="command_010_receiver.WindowsFileSystemReceiver"/>
+<fullyQualifiedTypeName name="command_010_receiver.UnixFileSystemReceiver"/>
+<fullyQualifiedTypeName name="command_010_receiver.FileSystemReceiver"/>
+<fullyQualifiedTypeName name="command_020_commands.OpenFileCommand"/>
+<fullyQualifiedTypeName name="command_020_commands.CloseFileCommand"/>
+<fullyQualifiedTypeName name="command_020_commands.Command"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletOutputStream"/>
+</qualifiedTypeNameHistroy>

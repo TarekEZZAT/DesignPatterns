@@ -1,0 +1,112 @@
+package logger_020.abstract_logger;
+
+import java.io.FileOutputStream;
+import java.io.PrintStream;
+
+public class Logger extends AbstractLogger{
+
+    // declaration
+    private FileOutputStream[] files;
+    private PrintStream[] pss;
+    private String[] messages;
+
+ 
+	public void Logger1() {
+		// initialisation
+		try {
+
+			FileOutputStream[] files = { new FileOutputStream("G:\\Users\\TarekEZZAT\\Documents\\logs\\logger0.log"),
+					new FileOutputStream("G:\\Users\\TarekEZZAT\\Documents\\logs\\logger1.log"),
+					new FileOutputStream("G:\\Users\\TarekEZZAT\\Documents\\logs\\logger2.log"), };
+
+			PrintStream[] pss = { new PrintStream(files[0]), new PrintStream(files[1]), new PrintStream(files[2]),
+
+			};
+
+			String[] messages = { new String("Write error message to log file 0"),
+					new String("Write error message to log file 1 + user"),
+					new String("Write error message to log file 2 + user+ email"), };
+
+			// Arrays instanciation is OK
+			System.out.println(files[0].toString());
+			System.out.println(files[1].toString());
+			System.out.println(files[2].toString());
+			System.out.println(pss[0].toString());
+			System.out.println(pss[1].toString());
+			System.out.println(pss[2].toString());
+			System.out.println(messages[0].toString());
+			System.out.println(messages[1].toString());
+			System.out.println(messages[2].toString());
+			System.out.println("++++++++++++");
+
+		} catch (Exception e) {
+			System.out.println("Exception " + e.getMessage());
+
+		} finally {
+
+		}
+	}
+/*
+	public void LogMessage(int level) {
+
+		// Here I get a Null pointer exception
+
+		System.out.println(files[0].toString());
+		System.out.println(files[1].toString());
+		System.out.println(files[2].toString());
+		System.out.println(pss[0].toString());
+		System.out.println(pss[1].toString());
+		System.out.println(pss[2].toString());
+		System.out.println(messages[0].toString());
+		System.out.println(messages[1].toString());
+		System.out.println(messages[2].toString());
+		System.out.println("++++++++++++");
+
+		// PrintStream[] files = OpenFiles();
+		WriteLogMessage(this.getPss(), level);
+		CloseFiles(pss);
+
+	}
+
+	private void CloseFiles(PrintStream[] pss2) {
+		// TODO Auto-generated method stub
+
+	}
+
+	private PrintStream[] OpenFiles() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private void WriteLogMessage(PrintStream[] files, int level) {
+
+		this.getPss()[level].println(messages[level]);
+		this.getPss()[level].flush();
+
+	}
+
+	public FileOutputStream[] getFiles() {
+		return files;
+	}
+
+	public void setFiles(FileOutputStream[] files) {
+		this.files = files;
+	}
+
+	public PrintStream[] getPss() {
+		return pss;
+	}
+
+	public void setPss(PrintStream[] pss) {
+		this.pss = pss;
+	}
+
+	public String[] getMessages() {
+		return messages;
+	}
+
+	public void setMessages(String[] messages) {
+		this.messages = messages;
+	}
+
+}

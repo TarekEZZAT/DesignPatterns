@@ -1,0 +1,34 @@
+package builder.director;
+
+
+import java.util.Arrays;
+
+import builder.model.Student;
+
+public class StudentBuilderDirector {
+
+    public static void main(String[] args) {
+
+        Student s1 = new Student.StudentBuilder()
+			.name("Sophie")
+			//.age(18)
+			.language(Arrays.asList("french","english"))
+			.build();
+
+		//Student{name='Sophie', age=18, language=[french, english]}
+        System.out.println(s1);
+
+        // Classic way to create an object
+		
+		Student s0 = new Student();
+        s0.setName("Marie");
+        s0.setAge(18);
+        s0.setLanguage(Arrays.asList("deutch","english"));
+        
+        System.out.println(s0);
+
+		
+
+    }
+
+}

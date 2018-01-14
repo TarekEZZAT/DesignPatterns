@@ -1,0 +1,22 @@
+ Le volume dans le lecteur I s'appelle HORUS-SWAP
+ Le num‚ro de s‚rie du volume est DC49-274E
+
+ R‚pertoire de I:\
+
+12/08/2017  18:53    <DIR>          abcd
+15/06/2017  07:26    <DIR>          Android
+22/11/2016  10:47    <DIR>          CallRecordings
+12/08/2017  18:53    <DIR>          foo
+09/01/2013  10:02         1ÿ461ÿ754 MailView.zip
+22/11/2016  01:00    <DIR>          NIA
+13/11/2016  10:43    <DIR>          VirtualMachine
+15/06/2017  07:26    <DIR>          VueMinder Ultimate 2016.x KeyGen - SoN
+07/08/2017  11:30    <DIR>          VueMinder Ultimate 2017
+16/05/2016  18:19        16ÿ752ÿ640 VueMinderUltimateLatest.msi
+17/05/2017  08:20    <DIR>          Windows Activation
+10/07/2015  13:00            11ÿ264 write.exe
+03/12/2016  03:14    <DIR>          Zhorn Software
+10/01/2017  13:17    <DIR>          _ Installation
+02/12/2016  16:54    <DIR>          _MUSIC
+               3 fichier(s)       18ÿ225ÿ658 octets
+              12 R‚p(s)   3ÿ382ÿ599ÿ680 octets libres

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.event.WindowAdapter"/>
+<fullyQualifiedTypeName name="java.awt.event.WindowEvent"/>
+<fullyQualifiedTypeName name="java.awt.Shape"/>
+<fullyQualifiedTypeName name="step3.ShapeFactory"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="step1.AdvancedMediaPlayer"/>
+<fullyQualifiedTypeName name="step2.VlcPlayer"/>
+<fullyQualifiedTypeName name="step2.Mp4Player"/>
+<fullyQualifiedTypeName name="step1.MediaPlayer"/>
+<fullyQualifiedTypeName name="step3.MediaAdapter"/>
+<fullyQualifiedTypeName name="step1.Employee"/>
+<fullyQualifiedTypeName name="step1.Image"/>
+<fullyQualifiedTypeName name="step3.RedShapeDecorator"/>
+<fullyQualifiedTypeName name="step2.Rectangle"/>
+<fullyQualifiedTypeName name="step3.ShapeDecorator"/>
+<fullyQualifiedTypeName name="step1.Shape"/>
+<fullyQualifiedTypeName name="step2.Circle"/>
+<fullyQualifiedTypeName name="step3.ShapeMaker"/>
+<fullyQualifiedTypeName name="step2.GreenCircle"/>
+<fullyQualifiedTypeName name="step2.RedCircle"/>
+</qualifiedTypeNameHistroy>

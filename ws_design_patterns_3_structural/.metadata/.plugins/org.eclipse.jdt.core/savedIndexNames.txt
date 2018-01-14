@@ -1,0 +1,20 @@
+INDEX VERSION 1.130+E:\Training_Projects\JAVA\ws_design_patterns_3_structural\.metadata\.plugins\org.eclipse.jdt.core
+2709834950.index
+3097492871.index
+1064460158.index
+1897625110.index
+1738804358.index
+450099395.index
+1744848727.index
+1374708533.index
+1223381620.index
+2931519348.index
+399439881.index
+1100196927.index
+1485348222.index
+747083632.index
+2791535446.index
+248658680.index
+3212329495.index
+644443711.index
+63490434.index
